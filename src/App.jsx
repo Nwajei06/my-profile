@@ -3,8 +3,9 @@ import Nav from "./components/Nav";
 import Sec from "./components/Sec";
 import Hero from './components/Hero';
 import Specialties from './components/Specialties';
-import Work from './components/work';
+import Experience from './components/Experience'
 import Footer from './components/Footer';
+
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <Sec/>
       <Hero/>
       <Specialties/>
-      <Work/>
+      <Experience/>
       <Footer/>
     </div>
   )
