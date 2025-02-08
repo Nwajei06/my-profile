@@ -2,8 +2,7 @@ import React from 'react'
 import './profile.css'
 import CSC from '../../public/images/cscpdf.png'
 import Trivia from '../../public/images/triviapicture.png'
-
-
+ 
 function Projects() {
   return (
     <div>
