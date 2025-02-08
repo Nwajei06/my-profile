@@ -337,6 +337,7 @@ font-size: small;
 }
 a{
     color: rgb(128, 0, 255);
+    text-decoration: none;
 }
 
 
@@ -521,9 +522,15 @@ header{
         height: 50%;
     }
     .htmcss{
-        width:50%;
-        height: 50%;
+        width:90%;
+        height: 80%;
         border-radius: 50px;
        }
+       #reactimg{
+        width: 50%;
+        height: 50%;
+        border-radius: none;
+        font-size: 50px;
+    }
 
 }

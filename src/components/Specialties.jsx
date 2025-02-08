@@ -3,8 +3,8 @@ import './profile.css'
 import react from "../../public/images/reactimg.jpg"
 import laravel from "../../public/images/laravel.jpeg"
 import jscript from "../../public/images/jscript.jpeg"
-import htmlimg from "../../public/images/htmlimg.jpeg"
-import cssimg from "../../public/images/cssimg.jpeg"
+// import htmlimg from "../../public/images/htmlimg.jpeg"
+import cssimg from "../../public/images/cscimg.jpeg"
 
 
 
@@ -20,7 +20,7 @@ function Specialties() {
         {/* <div  className='tryout'> */}
             <div id='prof'className="three"> <img  className='reactimg' src={jscript} alt="" />  <br />I'm also a JavaScript developer skilled in building dynamic, efficient, and interactive web applications
             </div>
-            <div id='prof'className="four"> <div className="reactimg"> <img  className='htmcss' src={cssimg} alt="" />  <br /></div>
+            <div id='prof'className="four"> <div id='reactimg' className="reactimg"> <img  className='htmcss' src={cssimg} alt="" />  <br /></div>
             I also  use html and  css and always about creatinng, responsive,
              visually appealing, and user friendly  web design.</div>
             {/* </div> */}
