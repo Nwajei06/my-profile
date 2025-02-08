@@ -13,7 +13,7 @@ function Jobs() {
 <div className="project-one">
  <center><img id='img' src={CSC} alt="" /></center> <br />
  <center>  <span className='span' >Class  2023 200lv online CSC pdf reader for different courses .Nnamdi Azikiwe University Nigeria/Anambra/Awka</span></center> </div>
-   
+   <br /><br /><br /><br /><br /><br /><br /><br />
    <div className="project-two">
     <center><img id='img'  src={Trivia} alt="" /></center> <br />
     <center> <span  className='span'> Tivia  Questions for any grade to test knowledge of those who seek them in any category, like science,  riddles, history etc </span></center></div>

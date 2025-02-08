@@ -302,7 +302,7 @@ font-size: small;
 }
 .project-one{
     width: 60%;
-    height: 500px;
+    height: 60%;
     margin-left: 20% ;
     /* display: flex;
 flex-direction: row; */
@@ -314,7 +314,7 @@ flex-direction: row; */
 }
 .project-two{
     width: 60%;
-    height: 500px;
+    height: 60%;
     margin-left: 20% ;
  
    
@@ -335,9 +335,21 @@ font-size: small;
 .colab{
     color: rgb(128, 0, 255);
 }
+.footer-content{
+    padding-top: 10%;
+}
 a{
     color: rgb(128, 0, 255);
     text-decoration: none;
+}
+ .attribute{
+    display: flex;
+   flex-direction: row;
+   gap: 10%;
+   width: 50%;
+   height: 50%;
+    border-radius: 50%;
+   
 }
 
 
