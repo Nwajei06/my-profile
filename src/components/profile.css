@@ -471,7 +471,8 @@ header{
    height: 600px;
 }
 .project-one{
-    margin-left: 5% ;
+    /* margin-left: 5% ; */
+    padding: 10px;
 
 }
 .project-container{
