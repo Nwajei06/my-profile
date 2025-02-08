@@ -5,7 +5,7 @@ import Trivia from '../../public/images/triviapicture.png'
  
 function Jobs() {
   return (
-    <div>
+    <div  className='jobs'>
         <div   className='project-container'>
  <center><span   className='header'>PROJECTS</span></center>
  <br /><br />
