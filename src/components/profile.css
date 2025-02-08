@@ -468,13 +468,14 @@ header{
     display: flex;
    flex-wrap: wrap;
    gap: 10px;
+   height: 600px;
 }
 .project-one{
     margin-left: 15% ;
 
 }
 .project-container{
-    padding-top: 10%;
+    padding-top: 20%;
 }
 #img{
     width: 300px;
