@@ -460,7 +460,7 @@ header{
 
 #prof{
     width: 40%;
-    height: 210px;
+    height: 220px;
     }
 
 .prof-one-two{
@@ -471,6 +471,9 @@ header{
 .project-one{
     margin-left: 15% ;
 
+}
+.project-container{
+    padding-top: 10%;
 }
 #img{
     width: 300px;
