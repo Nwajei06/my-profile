@@ -508,7 +508,14 @@ header{
        gap: 10%;
        
     }
-
+    .reactimg{
+        width:50%;
+        height: 50%;
+    }
+    .reactim{
+        width:90%;
+        height: 50%;
+    }
     .htmcss{
         width:50%;
         height: 50%;
