@@ -3,7 +3,7 @@ import './profile.css'
 import CSC from '../../public/images/cscpdf.png'
 import Trivia from '../../public/images/triviapicture.png'
  
-function Experience() {
+function Jobs() {
   return (
     <div>
         <div   className='project-container'>
@@ -22,4 +22,4 @@ function Experience() {
   )
 }
 
-export default Experience
+export default Jobs

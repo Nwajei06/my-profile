@@ -3,7 +3,7 @@ import Nav from "./components/Nav";
 import Sec from "./components/Sec";
 import Hero from './components/Hero';
 import Specialties from './components/Specialties';
-import Experience from './components/Experience'
+import Jobs from './components/Jobs';
 import Footer from './components/Footer';
 
 
@@ -16,7 +16,7 @@ function App() {
       <Sec/>
       <Hero/>
       <Specialties/>
-      <Experience/>
+      <Jobs/>
       <Footer/>
     </div>
   )
