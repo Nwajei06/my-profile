@@ -467,7 +467,6 @@ header{
     display: flex;
    flex-wrap: wrap;
    gap: 10px;
-   height: 500px;
 }
 .project-one{
     margin-left: 15% ;
