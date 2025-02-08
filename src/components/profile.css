@@ -476,9 +476,14 @@ header{
    height: 600px;
 }
 .project-one{
-    /* margin-left: 5% ; */
-    padding: 10px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .project-container{
     padding-top: 20%;
@@ -505,8 +510,8 @@ header{
     }
 
     .htmcss{
-        width:70px;
-        height: 70px;
+        width:50%;
+        height: 50%;
         border-radius: 50px;
        }
 
