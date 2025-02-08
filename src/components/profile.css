@@ -46,12 +46,12 @@
 }
 .section-container{
 width:200%;
-height: 200%;
+height: 10  0%;
 background-color:rgba(0, 0, 0, 0.977);
 border-radius: 50%;
 border:  solid   rgb(128, 0, 255)  ;
-margin-top: 12%;
-margin-left: 5%;
+margin-top: 18%;
+margin-left: 10%;
 box-shadow: rgb(128, 0, 255)  0px 2px 15px ;
 display: flex;
 justify-content: center;
@@ -78,7 +78,7 @@ height: 50px;
 .words{
     font-size: 70px;
     margin-right: 2%;
-    margin-top: 10%;
+    margin-top: 18%;
 
     
 }
@@ -415,7 +415,7 @@ a{
 
 .section-container{
     width: 90%;
-    height: 350px;
+    height: 90%;
     margin-top: 70px;
     margin-left: -1%;
 }
