@@ -15,12 +15,12 @@ function Specialties() {
         
         <div className="prof-one-two">
             <div id='prof' className="one"> <img  className='reactim' src={react} alt="" /> <br /> I'm a passionate react developer specialized in building dynamic  and user-friendly  web applications</div>
-            <div id='prof' className="two">  <img  className='reactimg' src={laravel} alt="" />  <br />I'm a skilled Laravel developer with a passion for building big and tasking project. I specialize in crafting robust backend solutions with clean , maintainable code</div>
+            <div id='prof' className="two">  <img  className='attribute' src={laravel} alt="" />  <br />I'm a skilled Laravel developer with a passion for building big and tasking project. I specialize in crafting robust backend solutions with clean , maintainable code</div>
       
         {/* <div  className='tryout'> */}
             <div id='prof'className="three"> <img  className='reactimg' src={jscript} alt="" />  <br />I'm also a JavaScript developer skilled in building dynamic, efficient, and interactive web applications
             </div>
-            <div id='prof'className="four"> <div className="attribute"><img  className='htmcss' src={htmlimg} alt="" /> <img  className='htmcss' src={cssimg} alt="" />  <br /></div>
+            <div id='prof'className="four"> <div className="reactimg"> <img  className='htmcss' src={cssimg} alt="" />  <br /></div>
             I also  use html and  css and always about creatinng, responsive,
              visually appealing, and user friendly  web design.</div>
             {/* </div> */}
