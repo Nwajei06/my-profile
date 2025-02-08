@@ -1,6 +1,6 @@
 import React from 'react'
 import './profile.css'
-import PFP from "../../public/images/mypfp.jpg"
+import PFP from "../../public/images/mypfp.jpeg"
 
 function sec() {
   return (
