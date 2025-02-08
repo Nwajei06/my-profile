@@ -33,7 +33,7 @@
 } */
 .sect{
     font-size: 35px;
-    background-color: rgba(0, 0, 0, 0.949);
+    background-color: rgba(0, 0, 0, 0.977);
     /* margin-top: 10%; */
     width: 100%;
     height:100%;
@@ -47,7 +47,7 @@
 .section-container{
 width:200%;
 height: 200%;
-background-color: rgb(0, 0, 0);
+background-color:rgba(0, 0, 0, 0.977);
 border-radius: 50%;
 border:  solid   rgb(128, 0, 255)  ;
 margin-top: 12%;
@@ -167,7 +167,7 @@ i{
 
 
 .hero-hero{
-    background-color: rgba(0, 0, 0, 0.949);
+    background-color: rgba(0, 0, 0, 0.977);
     color: white;
     display: flex;
     flex-direction: row;
@@ -225,14 +225,14 @@ flex-direction: column; */
 
 }
 header{
-    background-color: rgba(0, 0, 0, 0.949);
+    background-color: rgba(0, 0, 0, 0.977);
     color: rgba(255, 255, 255, 0.866);
     font-size: 30px;
     /* font-family:sans-serif; */
 }
 .specialties-container{
 
-    background-color: rgba(0, 0, 0, 0.949);
+    background-color: rgba(0, 0, 0, 0.977);
     width: 100%;
     height: 450px;
     padding-top: 10%;
@@ -295,7 +295,7 @@ font-size: small;
 
 }
 .project-container{
-    background-color: rgba(0, 0, 0, 0.949);
+    background-color: rgba(0, 0, 0, 0.977);
     width: 100%;
     height: 100%;
    
@@ -328,7 +328,7 @@ font-size: small;
 
 }
 .footer-container{
-    background-color: rgba(0, 0, 0, 0.949);
+    background-color: rgba(0, 0, 0, 0.977);
     color: white;
     font-size: 30px ;
 }
@@ -380,7 +380,7 @@ a{
 
     .sect{
         font-size: 35px;
-        background-color: rgba(0, 0, 0, 0.949);
+        background-color: rgba(0, 0, 0, 0.977);
         width: 100%;
         height: 1050px;
         color: white;
