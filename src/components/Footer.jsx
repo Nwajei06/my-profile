@@ -3,7 +3,7 @@ import './profile.css'
 
 function footer() {
   return (
-    <div  className='footer-container'  ><div className="footer-content">Let's  <span  className='colab'>Collaborate</span> to achieve  Great Result</div>
+    <div  className='footer-container'  > <center><div className="footer-content">Let's  <span  className='colab'>Collaborate</span> to achieve  Great Result</div>
     
     <div className="font-awsomme-contain">
     <div id='hov'  class="linkedin"><a href="https:/www.linkedin.com/in/joshua-nwajei-479262344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=andriod_app">  <i class="fab fa-linkedin" ></i> </a></div>
@@ -12,7 +12,7 @@ function footer() {
     <div id='hov' class="twitter"> <a href="https://x.com/Joshua590015513?t=dSHWvv4I1BTIUIEEW1jVDQ&S=09"> <i class="fab fa-twitter" ></i></a>   </div>
 
     </div>
-    
+    </center>
     </div>
   )
 }

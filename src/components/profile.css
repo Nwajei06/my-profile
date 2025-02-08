@@ -96,7 +96,7 @@ height: 50px;
 
 }
 .content-in-hero{
-font-size: large;
+font-size: small;
 }
 .font-awsomme-container{
     margin-top: 15px;
@@ -269,12 +269,12 @@ font-size: small;
 }
 .reactimg{
  width:60%;
- height: 50%;
+ height: 60%;
  border-radius: 50%;
 
 }
 .reactim{
-    width:100%;
+    width:60%;
     height: 50%;
     border-radius: 50%;
    
@@ -424,13 +424,15 @@ a{
 
 .last-hero{
     width: 150px;
-    height: 90px;
+    height: 100px;
     padding: 10px;
+    font-size: small;
 }
 .third-hero{
  
     height: 400px;
     
+
     
    
 }
@@ -438,9 +440,12 @@ a{
     width: 150px;
     margin-left: 0px;
     height: 120px;
+    font-size: small;
+
    
 }.first-hero{
     width: 150px;
+    font-size: small;
     height:120px;
     margin-left: 0px;
     
@@ -494,4 +499,5 @@ header{
         height: 70px;
         border-radius: 50px;
        }
+    
 }

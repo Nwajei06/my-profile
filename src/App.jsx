@@ -1,4 +1,5 @@
 import './App.css'
+// import './profile.css'
 import Nav from "./components/Nav";
 import Sec from "./components/Sec";
 import Hero from './components/Hero';
