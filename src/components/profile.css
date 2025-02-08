@@ -46,7 +46,7 @@
 }
 .section-container{
 width:200%;
-height: 10  0%;
+height: 100%;
 background-color:rgba(0, 0, 0, 0.977);
 border-radius: 50%;
 border:  solid   rgb(128, 0, 255)  ;
@@ -228,6 +228,7 @@ header{
     background-color: rgba(0, 0, 0, 0.977);
     color: rgba(255, 255, 255, 0.866);
     font-size: 30px;
+    padding-top: 15%;
     /* font-family:sans-serif; */
 }
 .specialties-container{
@@ -415,8 +416,8 @@ a{
 
 .section-container{
     width: 90%;
-    height: 90%;
-    margin-top: 70px;
+    height: 330px;
+    margin-top: 20px;
     margin-left: -1%;
 }
 .words{
