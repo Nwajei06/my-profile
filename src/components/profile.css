@@ -28,6 +28,9 @@
     font-weight: bold;
     font-size: 35px;
 }
+/* .section{
+    height: 100%;
+} */
 .sect{
     font-size: 35px;
     background-color: rgba(0, 0, 0, 0.949);
@@ -50,6 +53,9 @@ border:  solid   rgb(128, 0, 255)  ;
 margin-top: 12%;
 margin-left: 5%;
 box-shadow: rgb(128, 0, 255)  0px 2px 15px ;
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
 .section-container:hover{
@@ -98,6 +104,17 @@ font-size: large;
     flex-direction: row ;
     gap: 15px;
 }
+.font-awsomme-container a{
+    margin-top: -20px;
+
+}
+.font-awsomme-contain{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row ;
+    gap: 15px;
+}
+
 .linkedin{
     width: 50px;
     height: 50px;
@@ -112,8 +129,9 @@ font-size: large;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border:rgb(128, 0, 255) solid  2px ;display: flex;
-    justify-content: center;
+    border:rgb(128, 0, 255) solid  2px ;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 .gmail{
@@ -197,6 +215,7 @@ i{
 }
 .second-first-flex{
 width: 50%;
+/* padding-top: 10%; */
 /* display: flex;
 flex-direction: column; */
 
@@ -211,16 +230,21 @@ header{
 
     background-color: rgba(0, 0, 0, 0.949);
     width: 100%;
-    height: 600px;
+    height: 450px;
     padding-top: 10%;
     color: white;
    
 }
 #prof{
-width: 15%;
-height: 200px;
+width: 20%;
+height: 250px;
 border: solid  2px rgb(128, 0, 255);
 border-radius: 10px;
+padding: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: small;
 }
 .prof-one-two{
     
@@ -229,8 +253,88 @@ border-radius: 10px;
 
 }
 #prof:hover{
-    box-shadow: rgb(128, 0, 255)  0px 0px 15px ;
+    box-shadow: rgb(128, 0, 255)  0px 0px 20px ;
 }
+.attribute{
+    display: flex;
+   flex-direction: row;
+   gap: 20%;
+   
+}
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+   
+}
+.reactimg{
+ width:60%;
+ height: 50%;
+ border-radius: 50%;
+
+}
+.reactim{
+    width:100%;
+    height: 50%;
+    /* border-radius: 50%; */
+   
+   }
+.htmcss{
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+   }
+.header{
+    font-size: 50px;
+    color: white;
+    
+
+}
+.project-container{
+    background-color: rgba(0, 0, 0, 0.949);
+    width: 100%;
+    height: 100%;
+   
+}
+.project-one{
+    width: 60%;
+    height: 500px;
+    margin-left: 20% ;
+    /* display: flex;
+flex-direction: row; */
+   
+}
+#img{
+ width: 100%;
+ height: 350px;
+}
+.project-two{
+    width: 60%;
+    height: 500px;
+    margin-left: 20% ;
+ 
+   
+}
+.span{
+color: white;
+font-family:cursive;
+}
+#hov:hover{
+    box-shadow: rgb(128, 0, 255)  0px 0px 20px ;
+
+}
+.footer-container{
+    background-color: rgba(0, 0, 0, 0.949);
+    color: white;
+    font-size: 30px ;
+}
+.colab{
+    color: rgb(128, 0, 255);
+}
+a{
+    color: rgb(128, 0, 255);
+}
+
 
 
 
@@ -266,13 +370,15 @@ border-radius: 10px;
     font-size: 20px;
 }
 
-
+/* .section{
+    height:;
+} */
 
     .sect{
         font-size: 35px;
         background-color: rgba(0, 0, 0, 0.949);
         width: 100%;
-        height: 1000px;
+        height: 1050px;
         color: white;
         display: flex;
         flex-direction: column;
@@ -292,7 +398,7 @@ border-radius: 10px;
 
 .section-container{
     width: 90%;
-    height: 60%;
+    height: 350px;
     margin-top: 70px;
 }
 .words{
@@ -344,16 +450,48 @@ header{
     padding-top: 5%;
     
 }
+#yes{
+    height: 500px;
+}
 
 #prof{
-    width: 20%;
-    height: 150px;
+    width: 40%;
+    height: 210px;
     }
 
-/* .second-first-flex{
-    padding: 10px;
-} */
+.prof-one-two{
+    display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+.project-one{
+    margin-left: 15% ;
 
+}
+#img{
+    width: 300px;
+    height: 200px;
+   }
+   .span{
+    color: white;
+    margin-left: 5%;
+    }
+    .project-two{
+       margin-top: -30%;
+        margin-left: 15% ;
+     
+       
+    }
+    .attribute{
+        display: flex;
+       flex-direction: row;
+       gap: 10%;
+       
+    }
 
-
+    .htmcss{
+        width:70px;
+        height: 70px;
+        border-radius: 50px;
+       }
 }

@@ -1,11 +1,12 @@
-// import React from 'react'
+import React from 'react'
 import './profile.css'
+import PFP from "../../public/images/mypfp.jpg"
 
 function sec() {
   return (
     <div class="section">
   <div class="sect">
-    <div  class="section-container" ><img src="mypfp.jpg" alt="" /></div>
+    <div  class="section-container" ><img className='img'  src={PFP} alt="" /></div>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <div  class="words">
       <span class="first-sec-text">Hi, its <span class="hero-text"> Joshua</span>  <br />
@@ -22,10 +23,10 @@ function sec() {
       </div>
       
       <div className="font-awsomme-container">
-    <div class="linkedin"><a href="">  <i class="fab fa-linkedin" ></i> </a></div>
-    <div class="git-hub"><a href=""> <i class="fab fa-github"></i></a></div>
-    <div class="gmail"><a href="">  <i class="fab fa-google "></i></a></div>
-    <div class="twitter"> <a href=""> <i class="fab fa-twitter" ></i></a>   </div>
+    <div id='hov'  class="linkedin"><a href="https:/www.linkedin.com/in/joshua-nwajei-479262344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=andriod_app">  <i class="fab fa-linkedin" ></i> </a></div>
+    <div id='hov'  class="git-hub"><a href="https://github.com/Nwajei06"> <i class="fab fa-github"></i></a></div>
+    <div id='hov' class="gmail"><a href="mailto:nwajeijoshua55gmail.com">  <i class="fab fa-google "></i></a></div>
+    <div id='hov' class="twitter"> <a href="https://x.com/Joshua590015513?t=dSHWvv4I1BTIUIEEW1jVDQ&S=09"> <i class="fab fa-twitter" ></i></a>   </div>
 
     </div>
       </div>
