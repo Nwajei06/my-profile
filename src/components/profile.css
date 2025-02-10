@@ -546,17 +546,9 @@ header{
         border-radius: none;
         font-size: 50px;
     }
-    .font-awsomme-contain{
-        width: 200px;
-
-    }
-    #hov{
-        width: 50px;
-        height: 40px;
-    }
-    i{
-        /* background-color: white; */
-        /* color: rgb(128, 0, 255) solid ; */
+    
+    /* i{
+       
         font-size: 20px;
         cursor: pointer;
         background-color: transparent;
@@ -597,6 +589,6 @@ header{
         justify-content: center;
         align-items: center;
     }
-    
+      */
     
 }
