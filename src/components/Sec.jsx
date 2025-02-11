@@ -1,6 +1,7 @@
 import React from 'react'
 import './profile.css'
 import PFP from "../../public/images/mypfp.jpeg"
+import Typed from 'typewriter-effect'
 
 function sec() {
   return (
@@ -11,7 +12,14 @@ function sec() {
 <div  class="words">
       <span class="first-sec-text">Hi, its <span class="hero-text"> Joshua</span>  <br />
       
-    <span class="iam"  >  I am a </span>   <span class="full">Fullstack developer</span> 
+    <span class="iam"  >  I am a </span>   <span class="full"> <Typed options={{
+         strings:["Fullstack developer","I'm passionate about building new projects","I love been part of a team",],
+          autoStart:true,
+          cursor: '_',
+          loop:true 
+          }}
+          />
+      </span> 
       </span> 
       <div className="content-in-hero">
         I am an  experienced programmer specialized in crafting seamless <b>APIs</b>, dedicated  to delivering efficient, 

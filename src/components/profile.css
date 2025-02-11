@@ -93,8 +93,17 @@ height: 50px;
 .full{
     font-size: 25px;
     color:  rgb(128, 0, 255)  ;
+    margin-left: 10%;
 
+    /* width: 21.5ch;
+    white-space: nowrap;
+    overflow:hidden;
+    border-right:3px solid #212121; */
+    
 }
+
+    
+
 .content-in-hero{
 font-size: small;
 }
@@ -177,7 +186,7 @@ i{
     height: 80px;
     margin-right: 10%;
     margin-top: 100px;
-    border: solid 2px  rgb(128, 0, 255);
+    border: solid 1px  rgb(128, 0, 255);
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;padding: 10px;
@@ -186,14 +195,14 @@ i{
 .third-hero{
      width:5px;
      height: 300px;
-     border: solid 2px  rgb(128, 0, 255);
+     border: solid 1px  rgb(128, 0, 255);
      /* background-color:white; */
     
 }
 .second-hero{
     width: 70%;
     height: 80px;
-    border: solid 2px  rgb(128, 0, 255);
+    border: solid 1px  rgb(128, 0, 255);
     margin-left: 20%;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -202,7 +211,7 @@ i{
 }.first-hero{
     width: 70%;
     height: 80px;
-    border: solid 2px  rgb(128, 0, 255);
+    border: solid 1px  rgb(128, 0, 255);
     margin-left: 20%;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -243,7 +252,7 @@ header{
 #prof{
 width: 20%;
 height: 250px;
-border: solid  2px rgb(128, 0, 255);
+border: solid  1px rgb(128, 0, 255);
 border-radius: 10px;
 padding: 10px;
 display: flex;
