@@ -12,16 +12,18 @@ function sec() {
 <div  class="words">
       <span class="first-sec-text">Hi, its <span class="hero-text"> Joshua</span>  <br />
       
-    <span class="iam"  >  I am a </span>   <span class="full"> <Typed options={{
-         strings:["Fullstack developer","I'm passionate about building new projects","I love been part of a team",],
+      <span className='wrap'><span class="iam"  >  I am a </span>   <span class="full"> <Typed options={{
+         strings:["Fullstack developer","I'm passionate about building ","I love been part of a team",],
           autoStart:true,
           cursor: '_',
           loop:true 
           }}
           />
+          </span>
       </span> 
       </span> 
       <div className="content-in-hero">
+        <br />
         I am an  experienced programmer specialized in crafting seamless <b>APIs</b>, dedicated  to delivering efficient, 
         scalable solutions. Driven by passion for technology, continious  innovation   and  always exploring the future,
          one line of  code at a time. I am a developer that  is always on the lookout  for   projects that I  would be able to use the skill that I am 

@@ -73,7 +73,11 @@ height: 50px;
 /* margin-top: 5%; */
 
 }
+.wrap{
 
+    display: flex;
+    flex-wrap: nowrap;
+}
 
 .words{
     font-size: 70px;
@@ -93,7 +97,7 @@ height: 50px;
 .full{
     font-size: 25px;
     color:  rgb(128, 0, 255)  ;
-    margin-left: 10%;
+    margin-left: 2%;
 
     /* width: 21.5ch;
     white-space: nowrap;
