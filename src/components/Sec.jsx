@@ -12,8 +12,8 @@ function sec() {
 <div  class="words">
       <span class="first-sec-text">Hi, its <span class="hero-text"> Joshua</span>  <br />
       
-      <span className='wrap'><span class="iam"  >  I am a </span>   <span class="full"> <Typed options={{
-         strings:["Fullstack developer","I'm passionate about building ","I love been part of a team",],
+      <span className='wrap'><span class="iam"  >  I'm  </span>   <span class="full"> <Typed options={{
+         strings:[" a Fullstack developer","pasionate about building  ","a reliable and efficient team person",],
           autoStart:true,
           cursor: '_',
           loop:true 

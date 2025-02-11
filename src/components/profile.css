@@ -39,19 +39,20 @@
     height:100%;
     color: white;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    /* justify-content: space-between; */
     /* padding: 20px; */
 
   
 }
 .section-container{
-width:200%;
-height: 100%;
+width:2500px;
+height: 460px;
 background-color:rgba(0, 0, 0, 0.977);
 border-radius: 50%;
 border:  solid   rgb(128, 0, 255)  ;
 margin-top: 18%;
-margin-left: 10%;
+margin-left: 7%;
 box-shadow: rgb(128, 0, 255)  0px 2px 15px ;
 display: flex;
 justify-content: center;
@@ -437,9 +438,15 @@ a{
     margin-top: 5px;
 }
 .iam{
+    font-size: 22px;
     margin-left: 10px;
 
 }
+
+.full{
+    font-size: 22px;
+}
+
 .first-sec-text{
     margin-left: 10px;
 }
