@@ -46,8 +46,8 @@
   
 }
 .section-container{
-width:2500px;
-height: 460px;
+width:50%;
+height: 600px;
 background-color:rgba(0, 0, 0, 0.977);
 border-radius: 50%;
 border:  solid   rgb(128, 0, 255)  ;
@@ -58,6 +58,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 
+
+}
+.section-container img{
+    width: 100%;
+    border-radius: 100%;
 }
 .section-container:hover{
     box-shadow: rgb(128, 0, 255)  0px 2px 50px ;
@@ -84,6 +89,7 @@ height: 50px;
     font-size: 70px;
     margin-right: 2%;
     margin-top: 18%;
+    width: 50%;
 
     
 }
