@@ -454,15 +454,20 @@ a{
 }
 
 .first-sec-text{
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 .content-in-hero{
-    margin-left: 10px;
+    /* margin-left: 10px; */
 
 }
+.hero-contaainer h1{
+    margin: 20%;
+}
 .hero-hero{
+    margin-top: -90px;
+    padding-left: 10%;
+    /* padding-right: 5%; */
     
-    padding-top: 10%;
 }
 
 
