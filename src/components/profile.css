@@ -476,7 +476,7 @@ a{
 
 
 .last-hero{
-    width: 100px;
+    width: 120px;
     height: 100px;
     padding: 10px;
     font-size: small;
@@ -490,14 +490,14 @@ a{
    
 }
 .second-hero{
-    width: 100px;
+    width: 120px;
     margin-left: 0px;
     height: 120px;
     font-size: small;
 
    
 }.first-hero{
-    width: 100px;
+    width: 120px;
     font-size: small;
     height:120px;
     margin-left: 0px;
