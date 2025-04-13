@@ -461,10 +461,10 @@ a{
 
 }
 .hero-contaainer h1{
-    margin: 20%;
+    margin-top: 100%;
 }
 .hero-hero{
-    margin-top: -90px;
+    /* margin-top: -90px; */
     padding-left: 10%;
     /* padding-right: 5%; */
     
