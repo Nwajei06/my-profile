@@ -442,6 +442,9 @@ a{
 }
 .words{
     margin-top: 5px;
+    width: 85%;
+    
+
 }
 .iam{
     font-size: 17px;
@@ -457,11 +460,11 @@ a{
     /* margin-left: 10px; */
 }
 .content-in-hero{
-    /* margin-left: 10px; */
+    
 
 }
 .hero-contaainer h1{
-    margin-top: 100%;
+    margin-top: 80%;
 }
 .hero-hero{
     /* margin-top: -90px; */
@@ -473,7 +476,7 @@ a{
 
 
 .last-hero{
-    width: 150px;
+    width: 100px;
     height: 100px;
     padding: 10px;
     font-size: small;
@@ -487,14 +490,14 @@ a{
    
 }
 .second-hero{
-    width: 150px;
+    width: 100px;
     margin-left: 0px;
     height: 120px;
     font-size: small;
 
    
 }.first-hero{
-    width: 150px;
+    width: 100px;
     font-size: small;
     height:120px;
     margin-left: 0px;
@@ -546,8 +549,6 @@ header{
     .project-two{
        margin-top: -30%;
         /* margin-left: 15% ; */
-     
-       
     }
     .attribute{
         display: flex;
