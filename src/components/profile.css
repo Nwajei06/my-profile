@@ -521,8 +521,11 @@ header{
 .prof-one-two{
     display: flex;
    flex-wrap: wrap;
-   /* gap: 10px; */
+   gap: 10px;
    height: 600px;
+   margin-left: 20px;
+   margin-right: 20px;
+
 }
 .project-one{
     display: flex;
