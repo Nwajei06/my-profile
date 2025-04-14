@@ -512,16 +512,16 @@ header{
 }
 
 #prof{
-    width: 30%;
+    width: 40%;
     height: 200px;
-    font-size: smaller;
+    font-size: small;
     padding-top: 10%;
     }
 
 .prof-one-two{
     display: flex;
    flex-wrap: wrap;
-   gap: 10px;
+   /* gap: 10px; */
    height: 600px;
 }
 .project-one{
@@ -552,8 +552,7 @@ header{
     .attribute{
         display: flex;
        flex-direction: row;
-       gap: 10%;
-       width: 70px;
+       width: 60px;
        height: 70px;
         border-radius: 50%;
        
