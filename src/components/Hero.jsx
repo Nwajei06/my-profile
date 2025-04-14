@@ -1,15 +1,12 @@
 import React, { useRef } from 'react';
-
-import './profile.css'
 import { motion, useInView } from 'framer-motion';
-
+import './profile.css'
 function Hero() {
-
   const headingRef = useRef(null);
-  const isInView = useInView(headingRef, { amount: 0.5 });
-
+  const isInView = useInView(headingRef); 
   return (
     <div className='hero-contaainer'>
+      
       <div className="motion">
       <motion.h1
           ref={headingRef}
