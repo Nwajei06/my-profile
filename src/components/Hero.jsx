@@ -1,11 +1,25 @@
-import React from 'react'
+import React, { useRef } from 'react';
+
 import './profile.css'
+import { motion, useInView } from 'framer-motion';
 
 function Hero() {
+
+  const headingRef = useRef(null);
+  const isInView = useInView(headingRef, { amount: 0.5 });
+
   return (
     <div className='hero-contaainer'>
-      
-     <center><header><h1>EDUCATION</h1></header></center>
+      <div className="motion">
+      <motion.h1
+          ref={headingRef}
+          initial={{ opacity: 0, y: 50 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {opacity: 0, y: 50}}
+          transition={{ duration: 1 }}
+        >
+          EDUCATION
+        </motion.h1>
+        </div>
     <div class="hero-hero">
       <div class="second-first-flex"> 
       <div  id='hov' className="second-hero"><b>High school  :</b> I completed my high school at a private school  in Lagos/Nigeria and I  have my first school livinng certificate</div>

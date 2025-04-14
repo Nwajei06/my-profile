@@ -372,7 +372,12 @@ a{
     border-radius: 50%;
    
 }
-
+.motion{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
 
 
 
