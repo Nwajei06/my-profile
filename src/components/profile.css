@@ -512,7 +512,7 @@ header{
 }
 
 #prof{
-    width: 40%;
+    width: 30%;
     height: 200px;
     font-size: smaller;
     padding-top: 10%;
@@ -553,18 +553,18 @@ header{
         display: flex;
        flex-direction: row;
        gap: 10%;
-       width: 50%;
-       height: 50%;
+       width: 70px;
+       height: 70px;
         border-radius: 50%;
        
     }
     .reactimg{
-        width:50%;
-        height: 40%;
+        width: 70px;
+        height: 70px;
     }
     .reactim{
-        width:100%;
-        height: 50%;
+        /* width: 90px; */
+        height: 70px;
     }
     .htmcss{
         width:90%;
