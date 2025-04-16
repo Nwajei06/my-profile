@@ -379,7 +379,6 @@ a{
     text-align: center;
     padding: 10px;
     font-size: 25px;
-    
     /* overflow-x: auto; */
 }
 .mot{
@@ -387,6 +386,11 @@ a{
     flex-direction: row;
     gap: 20p;
 }
+.motion img{
+    object-fit: contain;
+
+}
+
 
 
 
