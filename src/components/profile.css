@@ -325,6 +325,7 @@ font-size: small;
     width: 60%;
     height: 60%;
     margin-left: 20% ;
+    overflow: hidden;
     /* display: flex;
 flex-direction: row; */
    
@@ -378,8 +379,14 @@ a{
     text-align: center;
     padding: 10px;
     font-size: 25px;
+    
+    /* overflow-x: auto; */
 }
-
+.mot{
+    display: flex;
+    flex-direction: row;
+    gap: 20p;
+}
 
 
 
@@ -464,6 +471,7 @@ a{
 
 .full{
     font-size: 17px;
+    
 }
 
 
@@ -583,7 +591,19 @@ header{
         border-radius: none;
         font-size: 50px;
     }
-    
+    .motion img{object-fit: contain;
+
+    }
+    .motion span{
+        width: 100% ;
+    }
+    .motion{
+        /* width: 265px; */
+    }
+    .cent .ful{
+        color: white;
+        font-size: 15px;
+    }
     /* i{
        
         font-size: 20px;

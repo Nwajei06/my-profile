@@ -1,7 +1,9 @@
 import React, { useRef } from 'react';
 import './profile.css'
-import CSC from '../../public/images/cscpdf.png'
 import Trivia from '../../public/images/triviapicture.png'
+import Yeyemi from '../../public/images/yey.png'
+import Typed from 'typewriter-effect'
+
 
 import { motion, useInView } from 'framer-motion';
 function Jobs() {
@@ -18,29 +20,51 @@ function Jobs() {
         <motion.h1
             ref={headingRef}
             initial={{ opacity: 0, y: 50 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {opacity: 0, y: 50}}
+            animate={isInView ? {opacity: 1, y: 0}:{opacity: 0, y: 50}}
             transition={{ duration: 1 }}
           >
-          <img id='img' src={CSC} alt="" />
+              <img id='img' src={Yeyemi} alt="" />
+     
           </motion.h1>
+ <center>  <span  style={{color:"white", fontSize:"15px"}}> <Typed options={{
+         strings:[" Aunty Yeyemi stories  ","A platform where users can access","varieties of Nigerian novels", "without downloading or payinng for the books" ],
+          autoStart:true,
+          cursor: '_',
+          loop:true 
+          }}
+          />
+          </span>
+          
+          </center>
+ </div> 
+ <br /><br /><br /><br /><br /><br /><br /><br />
           </div>
- <center>  <span className='span' >Class  2023 200lv online CSC pdf reader for different courses .Nnamdi Azikiwe University Nigeria/Anambra/Awka</span></center> </div>
-   <br /><br /><br /><br /><br /><br /><br /><br />
    <div className="project-two">
    <div className="motion">
         <motion.h1
             ref={headingRef}
             initial={{ opacity: 0, y: 50 }}
             animate={isInView ? { opacity: 1, y: 0 } : {opacity: 0, y: 50}}
-            transition={{ duration: 1 }}
+            transition={{ duration: 1}}
+            
           >
        <img id='img'  src={Trivia} alt="" />
           </motion.h1>
           </div>
-    {/* <center><img id='img'  src={Trivia} alt="" /></center> <br /> */}
-    <center> <span  className='span'> Tivia  Questions for any grade to test knowledge of those who seek them in any category, like science,  riddles, history etc </span></center></div>
+    <center>  <span style={{color:"white", fontSize:"15px"}}  class="full"> <Typed options={{
+         strings:[" Trivia  Questions used to test knowledge  ","of those who seek them in any  category","like science, riddles, history, etc." ],
+          autoStart:true,
+          cursor: '_',
+          loop:true 
+          }}
+          />
+          </span>
+          
+          </center>
     </div>
     </div>
+    </div>
+    
   )
 }
 
