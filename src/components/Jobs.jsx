@@ -54,7 +54,9 @@ function Jobs() {
   const isInView = useInView(headingRef);
 
   return (
-    <div className='jobs'>
+    <div className='jobs' style={{ position: 'relative', overflow: 'hidden' }}>
+      <div className='animated-background'></div>
+
       <div className='project-container'>
         <center>
           <span className='header'>PROJECTS</span>
@@ -62,70 +64,73 @@ function Jobs() {
         <br /><br />
 
         {/* PROJECT ONE */}
-        <div className="project-one">
-          <div className="motion">
-            <ProjectScroller images={[Yeyemi]} />
-            <center>
-              <span style={{ color: "white", fontSize: "15px" }}>
-                <Typed
-                  options={{
-                    strings: [
-                      " Aunty Yeyemi stories  ",
-                      "A platform where users can access",
-                      "varieties of Nigerian novels",
-                      "without downloading or payinng for the books",
-                    ],
-                    autoStart: true,
-                    cursor: '_',
-                    loop: true,
-                  }}
-                />
-              </span>
-            </center>
+        <div className="project-one" style={{ display: 'flex', alignItems: 'center', gap: '20px', padding: '30px 0' }}>
+          <ProjectScroller images={[Yeyemi]} />
+          <div>
+            <span style={{ color: "white", fontSize: "15px" }}>
+              <Typed
+                options={{
+                  strings: [
+                    " Aunty Yeyemi stories  ",
+                    "A platform where users can access",
+                    "varieties of Nigerian novels",
+                    "without downloading or payinng for the books",
+                  ],
+                  autoStart: true,
+                  cursor: '_',
+                  loop: true,
+                }}
+              />
+            </span>
           </div>
-          <br /><br /><br /><br /><br /><br /><br /><br />
         </div>
 
         {/* PROJECT TWO */}
-        <div className="project-one">
-          <div className="motion">
-            <ProjectScroller images={[eco]} />
-            <center>
-              <span style={{ color: "white", fontSize: "15px" }}>
-                <Typed
-                  options={{
-                    strings: [
-                      " Eco Market App  ",
-                      "Sustainable shopping experience",
-                      "Eco-friendly product listings",
-                      "and user-focused design."
-                    ],
-                    autoStart: true,
-                    cursor: '_',
-                    loop: true
-                  }}
-                />
-              </span>
-            </center>
+        <div className="project-one" style={{ display: 'flex', alignItems: 'center', gap: '20px', padding: '30px 0' }}>
+          <ProjectScroller images={[eco]} />
+          <div>
+            <span style={{ color: "white", fontSize: "15px" }}>
+              <Typed
+                options={{
+                  strings: [
+                    " Eco Market App  ",
+                    "Sustainable shopping experience",
+                    "Eco-friendly product listings",
+                    "and user-focused design."
+                  ],
+                  autoStart: true,
+                  cursor: '_',
+                  loop: true
+                }}
+              />
+            </span>
           </div>
-          <br /><br /><br /><br /><br /><br /><br /><br />
         </div>
-
+<br /><br /><br /><br /><br />
         {/* PROJECT THREE */}
-        <div className="project-two">
-          <div className="motion">
-            <motion.div
-              ref={headingRef}
-              initial={{ opacity: 0, y: 50 }}
-              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-              transition={{ duration: 1 }}
-            >
-              <img id='img' src={Trivia} alt="Trivia Project" loading="lazy" style={{ width: '100%', maxWidth: '250px', height: 'auto', objectFit: 'contain', borderRadius: '12px' }} />
-            </motion.div>
-          </div>
-
-          <center>
-            <span style={{ color: "white", fontSize: "15px" }} className="full">
+        <div className="project-two" style={{ display: 'flex', alignItems: 'center', gap: '20px', padding: '30px 0' }}>
+          <motion.div
+            ref={headingRef}
+            initial={{ opacity: 0, y: 50 }}
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+            transition={{ duration: 1 }}
+          >
+            <img
+              id='img'
+              src={Trivia}
+              alt="Trivia Project"
+              loading="lazy"
+              style={{
+                width: '100%',
+                maxWidth: '250px',
+                height: 'auto',
+                objectFit: 'contain',
+                borderRadius: '12px'
+              }}
+            />
+          </motion.div>
+          <div>
+            <span style={{ color: "white", fontSize: "15px" }}>
               <Typed
                 options={{
                   strings: [
@@ -139,7 +144,7 @@ function Jobs() {
                 }}
               />
             </span>
-          </center>
+          </div>
         </div>
       </div>
     </div>

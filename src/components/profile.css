@@ -399,7 +399,32 @@ overflow-x: hidden;
     width: 100%;
     height: 200px;
 } */
-
+.animated-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: linear-gradient(120deg, #1a1a1a, #292929, #1a1a1a);
+    background-size: 600% 600%;
+    animation: backgroundAnimation 20s ease infinite;
+    opacity: 0.2; /* subtle effect */
+    pointer-events: none; /* allows interaction with foreground elements */
+  }
+  
+  @keyframes backgroundAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
 
 
 
