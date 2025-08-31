@@ -264,7 +264,7 @@ header{
 width: 20%;
 height: 250px;
 border: solid  1px rgb(128, 0, 255);
-border-radius: 10px;
+/* border-radius: 10px; */
 padding: 10px;
 display: flex;
 flex-direction: column;
@@ -289,19 +289,19 @@ font-size: small;
 .img{
     width: 100%;
     height: 100%;
-    border-radius: 50%;
+    /* border-radius: 50%; */
    
 }
 .reactimg{
- width:60%;
- height: 60%;
- border-radius: 50%;
+ width:40%;
+ height: 40%;
+ /* border-radius: 50%; */
 
 }
 .reactim{
-    width:100%;
+    width:90%;
     height: 50%;
-    border-radius: 50%;
+    /* border-radius: 50%; */
    
    }
 .htmcss{
@@ -368,9 +368,9 @@ a{
     display: flex;
    flex-direction: row;
    gap: 10%;
-   width: 50%;
+   width: 60%;
    height: 50%;
-    border-radius: 50%;
+    /* border-radius: 50%; */
    
 }
 .motion{

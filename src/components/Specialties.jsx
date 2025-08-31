@@ -1,7 +1,7 @@
 import React from 'react'   
 import './profile.css'
 import react from "../../public/images/reactimg.jpg"
-import laravel from "../../public/images/laravel.jpeg"
+import laravel from "../../public/images/node.jpeg"
 import jscript from "../../public/images/jscript.jpeg"
 // import htmlimg from "../../public/images/htmlimg.jpeg"
 import cssimg from "../../public/images/cscimg.jpeg"
@@ -15,7 +15,7 @@ function Specialties() {
         
         <div className="prof-one-two">
             <div id='prof' className="one"> <img  className='reactim' src={react} alt="" /> <br /> I'm a passionate react developer specialized in building dynamic  and user-friendly  web applications</div>
-            <div id='prof' className="two">  <img  className='attribute' src={laravel} alt="" />  <br />I'm a skilled Laravel developer specialized in building, secure, and  hhigh performance web application</div>
+            <div id='prof' className="two">  <img  className='attribute' src={laravel} alt="" />  <br />I'm a skilled Node developer specialized in building, secure, and  high performance web application</div>
       
         {/* <div  className='tryout'> */}
             <div id='prof'className="three"> <img  className='reactimg' src={jscript} alt="" />  <br />I'm also a JavaScript developer skilled in building dynamic, efficient, and interactive web applications

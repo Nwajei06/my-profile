@@ -142,7 +142,10 @@ function Jobs() {
                   cursor: '_',
                   loop: true
                 }}
+                
               />
+
+              
             </span>
           </div>
         </div>
